@@ -1,0 +1,61 @@
+## Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+
+## IDEs
+.vscode/
+.idea/
+*.csproj.user
+
+## Rider
+*.sln.iml
+
+## Build output
+*.Build.cs
+*.cache
+*.dbmdl
+*.bak
+*.orig
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+*.nupkg
+*.snupkg
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Publish
+publish/
+*.Publish.xml
+
+## Logs
+*.log
+
+## Package manager
+packages/
+*.nupkg
+*.snupkg
+
+## Temporary files
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
