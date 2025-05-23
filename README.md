@@ -2,7 +2,7 @@
 
 **CoreKit** é um conjunto de bibliotecas utilitárias para desenvolvedores .NET que desejam turbinar a produtividade no desenvolvimento de **APIs e aplicações backend**, com foco em **filtros dinâmicos**, **manipulação de arquivos (CSV/Excel)** e **eventos internos**.
 
-> Desenvolvido por [Fabricio Souza](https://github.com/seuusuario), o CoreKit é modular, extensível e baseado em boas práticas como Clean Code, reutilização e testes automatizados.
+> Desenvolvido por [Fabricio Souza](https://github.com/FabricioSouza88), o CoreKit é modular, extensível e baseado em boas práticas como Clean Code, reutilização e testes automatizados.
 
 ---
 
@@ -106,4 +106,4 @@ Este projeto está licenciado sob os termos da [MIT License](./LICENSE).
 
 ---
 
-Desenvolvido com ❤️ por [Fabricio Souza](https://github.com/seuusuario)
+Desenvolvido com ❤️ por [Fabricio Souza](https://github.com/FabricioSouza88)

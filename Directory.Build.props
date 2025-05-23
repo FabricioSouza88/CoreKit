@@ -5,9 +5,26 @@
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- Unified version for all packages -->
+    <Version>1.0.0</Version>
+
+    <!-- Common Metadata -->
     <Authors>Fabricio Souza</Authors>
-    <Company>CoreKit</Company>
-    <RepositoryUrl>https://github.com/FabricioSouza88/CoreKit</RepositoryUrl>
+    <Company>Fabricio Souza</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>corekit.png</PackageIcon>
+    <RepositoryUrl>https://github.com/FabricioSouza88/CoreKit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageProjectUrl>https://fabriciosouza88.github.io</PackageProjectUrl>
+    <PackageTags>dotnet filters dynamic query sql database cleanarchitecture corekit</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="assets/icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
