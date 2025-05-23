@@ -13,7 +13,7 @@
     <Authors>Fabricio Souza</Authors>
     <Company>Fabricio Souza</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>corekit.png</PackageIcon>
+    <PackageIcon>corekit-icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/FabricioSouza88/CoreKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <IncludeSymbols>true</IncludeSymbols>
@@ -25,6 +25,6 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="" />
-    <None Include="assets/icon.png" Pack="true" PackagePath="\" />
+    <None Include="../../corekit-icon.png" Pack="true" PackagePath="." />
   </ItemGroup>
 </Project>
