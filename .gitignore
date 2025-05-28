@@ -18,6 +18,11 @@ obj/
 .idea/
 *.csproj.user
 
+## Visual Studio
+.vs/
+*.sln.ide
+*.sln.cache
+
 ## Rider
 *.sln.iml
 

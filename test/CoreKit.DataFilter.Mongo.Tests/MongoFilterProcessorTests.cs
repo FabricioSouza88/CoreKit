@@ -59,8 +59,8 @@ namespace CoreKit.DataFilter.Mongo.Tests
 
         public class Product
         {
-            public string Name { get; set; }
-            public string Status { get; set; }
+            public required string Name { get; set; }
+            public required string Status { get; set; }
         }
     }
 }

@@ -37,8 +37,8 @@ public class SimpleQueryRequestTests
 
         var result = query.ToFilterRequest();
 
-        Assert.Equal(1, result.Pagination.Page);
-        Assert.Equal(10, result.Pagination.PageSize);
+        Assert.Equal(1, result.Pagination?.Page);
+        Assert.Equal(10, result.Pagination?.PageSize);
     }
 
     [Fact]
@@ -82,8 +82,8 @@ public class SimpleQueryRequestTests
 
         var result = query.ToFilterRequest();
 
-        Assert.Equal(3, result.Pagination.Page);
-        Assert.Equal(25, result.Pagination.PageSize);
+        Assert.Equal(3, result.Pagination?.Page);
+        Assert.Equal(25, result.Pagination?.PageSize);
     }
 
     [Fact]
