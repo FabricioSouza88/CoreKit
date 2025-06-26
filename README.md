@@ -34,8 +34,8 @@ Ou via referência direta no `.csproj`:
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="CoreKit.DataFilter" Version="1.0.0" />
-  <PackageReference Include="CoreKit.ExcelWriter" Version="1.0.0" />
+  <PackageReference Include="CoreKit.DataFilter.Linq" Version="1.0.0" />
+
 </ItemGroup>
 ```
 
