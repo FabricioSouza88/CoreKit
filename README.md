@@ -35,7 +35,6 @@ Ou via referência direta no `.csproj`:
 ```xml
 <ItemGroup>
   <PackageReference Include="CoreKit.DataFilter.Linq" Version="1.0.0" />
-
 </ItemGroup>
 ```
 
